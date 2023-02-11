@@ -1,18 +1,21 @@
 body {
   background-color: #070724;
-  background-size: cover;
-}
+  font-family: 'Antonio', sans-serif;
 
+  z-index: -1;
+}
+/* 
 .planet-background {
   height: 100%;
   width: 100%;
-}
+  z-index: -1;
+} */
 
 
 .App {
   text-align: center;
-}
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -56,5 +59,12 @@ body {
   padding: 20px;
   font-size: 14px;
   left: 40%;
+  cursor: pointer;
+}
+
+.planet {
+  color: white;
+  position: relative;
+  top: 200px;
 
 }
