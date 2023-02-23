@@ -12,15 +12,17 @@ import Saturn from './components/Saturn';
 import Uranus from './components/Uranus';
 import Venus from './components/Venus';
 
+import planetData from './starter-code/data.json'
 
-
-
+console.log(planetData[0])
 function App() {
   return (
     <div className="App">
 
+
       <Header />
 
+    
 
     <Switch>
 
