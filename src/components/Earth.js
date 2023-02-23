@@ -3,6 +3,7 @@ import planetData from '../starter-code/data.json'
 import earthPicFull from '../starter-code/assets/planet-earth.svg'
 import earthPicInternal from "../starter-code/assets/planet-earth-internal.svg"
 import earthPicGeology from "../starter-code/assets/geology-earth.png"
+import EarthFacts from './EarthFacts'
 
 function Earth() {
 
@@ -22,6 +23,9 @@ function Earth() {
       <a onClick={() => setEarthPic(earthPicInternal)}>02 | INTERNAL STRUCTURE</a>
       <a onClick={() => setShowGeologyPic(!showGeologyPic)}>03 | SURFACE GEOLOGY</a>
     </div>
+
+    <EarthFacts />
+    
   </div>
   )
 }
